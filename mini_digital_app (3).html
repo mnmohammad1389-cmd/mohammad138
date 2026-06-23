@@ -319,8 +319,6 @@
     .admin-order-item .btn-confirm:hover { opacity: 0.8; }
     .forgot-pass-link { color: #7B3FF5; cursor: pointer; font-size: 12px; text-align: center; margin-top: 10px; }
     .forgot-pass-link:hover { text-decoration: underline; }
-    .deposit-box { background: #141414; border: 0.5px solid #2A2A2A; border-radius: 14px; padding: 16px; margin-top: 12px; direction: rtl; }
-    .deposit-box .card-number { color: #7B3FF5; font-size: 18px; font-weight: 700; letter-spacing: 2px; direction: ltr; text-align: center; }
     .self-plan {
       background: #141414;
       border: 0.5px solid #2A2A2A;
@@ -377,106 +375,6 @@
     .admin-reply-box .reply-input { display: flex; gap: 8px; margin-top: 8px; }
     .admin-reply-box .reply-input input { flex: 1; background: #0A0A0A; border: 0.5px solid #2A2A2A; border-radius: 8px; padding: 8px 12px; color: #fff; }
     .admin-reply-box .reply-input button { background: #7B3FF5; border: none; border-radius: 8px; padding: 8px 14px; color: #fff; cursor: pointer; }
-    .payment-btn {
-      width: 100%;
-      background: linear-gradient(135deg, #34D399, #0B7A4A);
-      border: none;
-      border-radius: 14px;
-      padding: 14px;
-      color: #fff;
-      font-weight: 700;
-      cursor: pointer;
-      margin-top: 12px;
-      font-family: inherit;
-      box-shadow: 0 4px 15px rgba(52,211,153,0.3);
-      transition: transform 0.15s;
-    }
-    .payment-btn:hover { transform: scale(1.02); }
-    .payment-btn:active { transform: scale(0.98); }
-    .referral-box { display: none; }
-
-    .payment-modal {
-      display: none;
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(0,0,0,0.8);
-      z-index: 200;
-      justify-content: center;
-      align-items: center;
-    }
-    .payment-modal-content {
-      background: #141414;
-      border: 0.5px solid #2A2A2A;
-      border-radius: 20px;
-      padding: 24px;
-      width: 90%;
-      max-width: 360px;
-      direction: rtl;
-    }
-    .payment-modal-content h3 {
-      color: #E0E0E0;
-      margin-bottom: 16px;
-      text-align: center;
-    }
-    .payment-modal-content .input-group {
-      margin-bottom: 12px;
-    }
-    .payment-modal-content .input-group label {
-      color: #888;
-      font-size: 12px;
-      display: block;
-      margin-bottom: 4px;
-    }
-    .payment-modal-content .input-group input {
-      width: 100%;
-      background: #0A0A0A;
-      border: 0.5px solid #2A2A2A;
-      border-radius: 10px;
-      padding: 10px 14px;
-      color: #fff;
-      font-family: inherit;
-      font-size: 14px;
-    }
-    .payment-modal-content .input-group input:focus {
-      border-color: #7B3FF5;
-      outline: none;
-    }
-    .payment-modal-content .pay-confirm-btn {
-      width: 100%;
-      background: linear-gradient(135deg, #7B3FF5, #5B2DD4);
-      border: none;
-      border-radius: 12px;
-      padding: 12px;
-      color: #fff;
-      font-weight: 700;
-      cursor: pointer;
-      margin-top: 8px;
-      font-family: inherit;
-    }
-    .payment-modal-content .pay-confirm-btn:hover { opacity: 0.9; }
-    .payment-modal-content .close-modal {
-      background: transparent;
-      border: none;
-      color: #888;
-      cursor: pointer;
-      font-size: 14px;
-      margin-top: 10px;
-      width: 100%;
-      text-align: center;
-      font-family: inherit;
-    }
-    .payment-modal-content .close-modal:hover { color: #fff; }
-    .payment-status {
-      text-align: center;
-      padding: 10px;
-      border-radius: 10px;
-      margin-top: 10px;
-      font-weight: 600;
-    }
-    .payment-status.success { background: rgba(52,211,153,0.2); color: #34D399; }
-    .payment-status.failed { background: rgba(239,68,68,0.2); color: #EF4444; }
-    .payment-status.info { background: rgba(251,191,36,0.2); color: #FBBF24; }
     .proxy-custom {
       background: #141414;
       border: 0.5px solid #2A2A2A;
@@ -507,69 +405,40 @@
       padding: 0 4px;
     }
     .vpn-spec-btn:hover, .game-spec-btn:hover { text-decoration: underline; }
-    .shaparak-btn {
-      background: linear-gradient(135deg, #2563EB, #1D4ED8);
-      color: #fff;
-      border: none;
-      border-radius: 14px;
-      padding: 14px;
-      font-weight: 700;
-      cursor: pointer;
-      width: 100%;
-      font-family: inherit;
-      margin-top: 8px;
-      box-shadow: 0 4px 15px rgba(37,99,235,0.3);
-      transition: transform 0.15s;
-    }
-    .shaparak-btn:hover { transform: scale(1.02); }
-    .shaparak-btn:active { transform: scale(0.98); }
 
-    .bot-config-box {
-      background: #141414;
-      border: 0.5px solid #2A2A2A;
-      border-radius: 14px;
-      padding: 16px;
-      margin-top: 12px;
-      direction: rtl;
-    }
-    .bot-config-box input {
-      width: 100%;
-      background: #0A0A0A;
-      border: 0.5px solid #2A2A2A;
-      border-radius: 10px;
-      padding: 10px 14px;
-      color: #fff;
-      font-family: inherit;
-      font-size: 13px;
-      margin-top: 6px;
-    }
-    .bot-config-box input:focus { border-color: #7B3FF5; outline: none; }
-    .bot-config-box label { color: #888; font-size: 12px; display: block; margin-top: 8px; }
-    .bot-status {
-      padding: 8px 12px;
-      border-radius: 8px;
-      font-size: 12px;
-      margin-top: 8px;
-      text-align: center;
-    }
-    .bot-status.connected { background: rgba(52,211,153,0.15); color: #34D399; }
-    .bot-status.disconnected { background: rgba(239,68,68,0.15); color: #EF4444; }
-    .bot-status.waiting { background: rgba(251,191,36,0.15); color: #FBBF24; }
-    .users-list-item {
-      background: #1A1A1A;
-      border: 0.5px solid #2A2A2A;
-      border-radius: 10px;
-      padding: 10px 14px;
-      margin-bottom: 6px;
+    .verify-code-input {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      direction: rtl;
-      font-size: 12px;
+      gap: 8px;
+      justify-content: center;
+      margin: 12px 0;
     }
-    .users-list-item .user-telegram-id { color: #7B3FF5; font-weight: 600; direction: ltr; }
-    .users-list-item .user-name { color: #E0E0E0; }
-    .users-list-item .user-phone { color: #888; }
+    .verify-code-input input {
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      font-size: 20px;
+      background: #1A1A1A;
+      border: 1px solid #2A2A2A;
+      border-radius: 10px;
+      color: #fff;
+      font-weight: 700;
+    }
+    .verify-code-input input:focus {
+      border-color: #7B3FF5;
+      outline: none;
+    }
+    .verification-status {
+      text-align: center;
+      padding: 8px;
+      border-radius: 8px;
+      margin-top: 8px;
+      font-size: 13px;
+    }
+    .verification-status.success { background: rgba(52,211,153,0.15); color: #34D399; }
+    .verification-status.error { background: rgba(239,68,68,0.15); color: #EF4444; }
+    .verification-status.waiting { background: rgba(251,191,36,0.15); color: #FBBF24; }
+
+    .bottom-nav .nav-item#nav-more { display: none; }
   </style>
 </head>
 <body>
@@ -634,7 +503,6 @@
   <div class="spacer"></div>
 
   <div class="bottom-nav">
-    <div class="nav-item" onclick="switchTab('more')"><i class="ti ti-dots nav-icon"></i><span class="nav-label">بیشتر</span></div>
     <div class="nav-item" id="nav-profile" onclick="showProfile()"><i class="ti ti-user nav-icon"></i><span class="nav-label">پروفایل</span></div>
     <div class="nav-item" id="nav-proxy" onclick="showProxy()"><i class="ti ti-shield nav-icon"></i><span class="nav-label">Proxy</span></div>
     <div class="nav-item active" id="nav-services"><i class="ti ti-layout-grid nav-icon"></i><span class="nav-label">خدمات</span><div class="active-dot" id="dot-services"></div></div>
@@ -817,7 +685,6 @@
     <div class="profile-row"><div><div class="profile-row-label">نام</div><div class="profile-row-value" id="p-name"></div></div><i class="ti ti-user" style="color:#7B3FF5;font-size:20px;"></i></div>
     <div class="profile-row"><div><div class="profile-row-label">آیدی</div><div class="profile-row-value" id="p-id"></div></div><i class="ti ti-at" style="color:#7B3FF5;font-size:20px;"></i></div>
     <div class="profile-row"><div><div class="profile-row-label">شماره همراه</div><div class="profile-row-value" id="p-phone"></div></div><i class="ti ti-phone" style="color:#7B3FF5;font-size:20px;"></i></div>
-    <div class="profile-row"><div><div class="profile-row-label">کیف پول</div><div class="profile-row-value" id="p-wallet">۰ تومان</div></div><i class="ti ti-wallet" style="color:#FBBF24;font-size:20px;"></i></div>
     
     <div id="adminPanelContainer" style="display:none;margin-top:12px;">
       <div class="admin-panel-btn" onclick="toggleAdminPanel()">🛠 پنل مدیریت (ادمین)</div>
@@ -839,63 +706,38 @@
 <div id="auth-page" class="page-overlay"><div class="page-inner">
   <div class="page-header"><button class="back-btn" onclick="hideAuth()"><i class="ti ti-arrow-right"></i></button><div><div style="color:#E0E0E0;font-size:16px;font-weight:700;">ورود / ثبت نام</div><div style="color:#666;font-size:11px;">به پرو دیجی خوش آمدید</div></div></div>
   <div style="text-align:center;padding:28px 16px 8px;"><div style="width:70px;height:70px;background:linear-gradient(135deg,#7B3FF5,#5B2DD4);border-radius:20px;display:inline-flex;align-items:center;justify-content:center;font-size:30px;font-weight:900;color:#fff;box-shadow:0 8px 28px rgba(123,63,245,0.45);">P</div><div style="color:#E0E0E0;font-size:16px;font-weight:700;margin-top:12px;">پرو دیجی</div><div style="color:#555;font-size:12px;margin-top:4px;">وارد حساب خود شوید یا ثبت نام کنید</div></div>
-  <div class="auth-tab-bar"><div class="auth-tab" id="tab-login" onclick="switchAuthTab('login')">ورود</div><div class="auth-tab active" id="tab-register" onclick="switchAuthTab('register')">ثبت نام</div></div>
-  <div id="form-register" style="padding:20px 16px;direction:rtl;">
+  
+  <div style="padding:20px 16px;direction:rtl;">
     <div class="field-3d"><div class="field-label">نام</div><div class="field-3d-wrap"><i class="ti ti-user field-3d-icon"></i><input type="text" id="reg-name" placeholder="نام خود را وارد کنید" /></div></div>
     <div class="field-3d"><div class="field-label">آیدی</div><div class="field-3d-wrap"><i class="ti ti-at field-3d-icon"></i><input type="text" id="reg-id" placeholder="مثال: prodigy_user" /></div></div>
     <div class="field-3d"><div class="field-label">شماره همراه</div><div class="field-3d-wrap"><i class="ti ti-phone field-3d-icon"></i><input type="tel" id="reg-phone" placeholder="09xxxxxxxxx" /></div></div>
-    <button class="auth-btn" onclick="doRegister()">ثبت نام</button>
-    <div class="forgot-pass-link" onclick="showForgotPass()">🔑 رمز عبور خود را فراموش کرده‌اید؟</div>
-    <div style="text-align:center;margin-top:16px;color:#555;font-size:12px;">قبلاً ثبت نام کردید؟ <span onclick="switchAuthTab('login')" style="color:#7B3FF5;cursor:pointer;font-weight:600;">وارد شوید</span></div>
+    
+    <div id="verificationSection" style="display:none;margin-top:16px;">
+      <div style="color:#E0E0E0;font-weight:600;text-align:center;margin-bottom:8px;">کد تایید ۶ رقمی</div>
+      <div style="color:#888;font-size:12px;text-align:center;margin-bottom:8px;">کد تایید به ربات تلگرام شما ارسال شد</div>
+      <div class="verify-code-input">
+        <input type="text" maxlength="1" class="code-input" data-index="0" />
+        <input type="text" maxlength="1" class="code-input" data-index="1" />
+        <input type="text" maxlength="1" class="code-input" data-index="2" />
+        <input type="text" maxlength="1" class="code-input" data-index="3" />
+        <input type="text" maxlength="1" class="code-input" data-index="4" />
+        <input type="text" maxlength="1" class="code-input" data-index="5" />
+      </div>
+      <div id="verificationStatus" class="verification-status waiting">⏳ منتظر وارد کردن کد...</div>
+      <button class="auth-btn" onclick="verifyCode()" style="margin-top:8px;">تایید کد</button>
+      <button onclick="resendCode()" style="width:100%;background:#1A1A1A;border:0.5px solid #2A2A2A;border-radius:12px;padding:10px;color:#E0E0E0;font-weight:600;cursor:pointer;margin-top:8px;font-family:inherit;">ارسال مجدد کد</button>
+    </div>
+    
+    <button class="auth-btn" onclick="sendVerificationCode()" id="sendCodeBtn">ارسال کد تایید</button>
+    
+    <div style="text-align:center;margin-top:16px;color:#555;font-size:12px;">قبلاً ثبت نام کردید؟ <span onclick="showLoginForm()" style="color:#7B3FF5;cursor:pointer;font-weight:600;">وارد شوید</span></div>
   </div>
-  <div id="form-login" style="display:none;padding:20px 16px;direction:rtl;">
+
+  <div id="loginForm" style="display:none;padding:20px 16px;direction:rtl;border-top:0.5px solid #2A2A2A;margin-top:10px;">
     <div class="field-3d"><div class="field-label">آیدی</div><div class="field-3d-wrap"><i class="ti ti-at field-3d-icon"></i><input type="text" id="login-id" placeholder="آیدی خود را وارد کنید" /></div></div>
     <div class="field-3d"><div class="field-label">شماره همراه</div><div class="field-3d-wrap"><i class="ti ti-phone field-3d-icon"></i><input type="tel" id="login-phone" placeholder="09xxxxxxxxx" /></div></div>
     <button class="auth-btn" onclick="doLogin()">ورود به حساب</button>
-    <div class="forgot-pass-link" onclick="showForgotPass()">🔑 رمز عبور خود را فراموش کرده‌اید؟</div>
-    <div style="text-align:center;margin-top:16px;color:#555;font-size:12px;">حساب ندارید؟ <span onclick="switchAuthTab('register')" style="color:#7B3FF5;cursor:pointer;font-weight:600;">ثبت نام کنید</span></div>
-  </div>
-  <div id="forgot-pass-section" style="display:none;padding:20px 16px;direction:rtl;border-top:0.5px solid #2A2A2A;margin-top:10px;">
-    <div style="color:#E0E0E0;font-weight:600;margin-bottom:8px;">فراموشی رمز عبور</div>
-    <div class="field-3d"><div class="field-label">شماره همراه</div><div class="field-3d-wrap"><i class="ti ti-phone field-3d-icon"></i><input type="tel" id="forgot-phone" placeholder="09xxxxxxxxx" /></div></div>
-    <button class="auth-btn" onclick="sendResetCode()" style="background:linear-gradient(135deg,#F59E0B,#D97706);">ارسال کد تایید به بات تلگرام</button>
-    <div style="color:#555;font-size:11px;margin-top:8px;text-align:center;">کد تایید به بات تلگرام شما ارسال خواهد شد</div>
-  </div>
-</div></div>
-
-<!-- MORE PAGE -->
-<div id="more-page" class="page-overlay"><div class="page-inner">
-  <div class="page-header"><button class="back-btn" onclick="hidePage('more-page','nav-services')"><i class="ti ti-arrow-right"></i></button><div><div style="color:#E0E0E0;font-size:16px;font-weight:700;">بیشتر</div><div style="color:#666;font-size:11px;">امکانات ویژه</div></div></div>
-  <div style="padding:16px;direction:rtl;">
-    <div style="background:#141414;border:0.5px solid #2A2A2A;border-radius:16px;padding:18px;margin-bottom:16px;">
-      <div style="color:#E0E0E0;font-weight:600;font-size:15px;">💰 کیف پول</div>
-      <div style="color:#A78BFA;font-size:22px;font-weight:700;margin-top:6px;" id="walletDisplay">۰ تومان</div>
-      <div style="color:#555;font-size:11px;">موجودی فعلی</div>
-    </div>
-    
-    <div style="background:#141414;border:0.5px solid #2A2A2A;border-radius:16px;padding:18px;margin-bottom:16px;">
-      <div style="color:#E0E0E0;font-weight:600;font-size:15px;">💳 افزایش موجودی (شارژ)</div>
-      <div style="color:#888;font-size:13px;margin:8px 0;">واریز به حساب زیر:</div>
-      <div class="deposit-box">
-        <div style="color:#555;font-size:12px;">شماره کارت:</div>
-        <div class="card-number">6219 8619 5081 2379</div>
-        <div style="color:#888;font-size:13px;margin-top:6px;">به نام: محمد مهدی نوری نژاد</div>
-        <button onclick="copyCard()" style="margin-top:10px;width:100%;background:#1A1A1A;border:0.5px solid #2A2A2A;border-radius:12px;padding:10px;color:#E0E0E0;font-weight:600;cursor:pointer;">📋 کپی شماره کارت</button>
-      </div>
-    </div>
-
-    <!-- Bot Configuration Section -->
-    <div style="background:#141414;border:0.5px solid #2A2A2A;border-radius:16px;padding:18px;margin-bottom:16px;">
-      <div style="color:#E0E0E0;font-weight:600;font-size:15px;">🤖 تنظیمات ربات تلگرام</div>
-      <div style="color:#888;font-size:12px;margin-top:4px;">توکن ربات خود را وارد کنید تا اطلاعات کاربران به ربات ارسال شود</div>
-      <div class="bot-config-box">
-        <label>🔑 توکن ربات</label>
-        <input type="text" id="botToken" placeholder="مثال: 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11" value="8919904826:AAGtpPoXM9SzJfjB5OhJMx7MoecqXi-ZuMQ" />
-        <button onclick="connectBot()" style="margin-top:10px;width:100%;background:linear-gradient(135deg,#7B3FF5,#5B2DD4);border:none;border-radius:12px;padding:12px;color:#fff;font-weight:600;cursor:pointer;">اتصال ربات</button>
-        <div id="botStatus" class="bot-status waiting">⏳ منتظر اتصال...</div>
-        <div style="margin-top:10px;color:#555;font-size:11px;text-align:center;">پس از اتصال، اطلاعات کاربران هنگام ثبت نام به ربات ارسال می‌شود</div>
-      </div>
-    </div>
+    <div style="text-align:center;margin-top:16px;color:#555;font-size:12px;">حساب ندارید؟ <span onclick="showRegisterForm()" style="color:#7B3FF5;cursor:pointer;font-weight:600;">ثبت نام کنید</span></div>
   </div>
 </div></div>
 
@@ -906,140 +748,173 @@ let selectedVpn = null;
 let selectedSelf = null;
 let selectedGame = null;
 let currentUser = null;
-let walletBalance = 0;
 let orders = [];
 let orderIdCounter = 1;
 let registeredUsers = [];
 let userMessages = [];
 let chatHistory = [];
 let customProxyCount = 0;
-let botToken = '8919904826:AAGtpPoXM9SzJfjB5OhJMx7MoecqXi-ZuMQ';
-let botConnected = false;
+let pendingVerification = null;
+let verificationCode = '';
 
 const ADMIN_CREDENTIALS = {
   id: "mohammad.451389",
   phone: "09393975714"
 };
 
-// ===== BOT CONNECTION =====
-async function connectBot() {
-  let token = document.getElementById('botToken').value.trim();
-  if (!token) {
-    alert('لطفاً توکن ربات را وارد کنید!');
+const BOT_TOKEN = '8802206207:AAGZK5j_V1NLBinCMg6p9WopO0rvU1aGZ6k';
+const ADMIN_CHAT_ID = '@MRM00HAMMAD';
+
+// ===== 2FA VERIFICATION =====
+async function sendVerificationCode() {
+  let name = document.getElementById('reg-name').value.trim();
+  let id = document.getElementById('reg-id').value.trim();
+  let phone = document.getElementById('reg-phone').value.trim();
+  
+  if (!name || !id || !phone) {
+    alert('لطفاً همه فیلدها را پر کنید');
     return;
   }
   
-  botToken = token;
-  let statusEl = document.getElementById('botStatus');
-  statusEl.className = 'bot-status waiting';
-  statusEl.textContent = '⏳ در حال اتصال به ربات...';
+  if (registeredUsers.some(u => u.id === id)) {
+    alert('این آیدی قبلاً ثبت شده است. لطفاً آیدی دیگری انتخاب کنید.');
+    return;
+  }
+  if (registeredUsers.some(u => u.phone === phone)) {
+    alert('این شماره همراه قبلاً ثبت شده است. لطفاً وارد شوید.');
+    return;
+  }
+  
+  // Generate 6-digit code
+  verificationCode = Math.floor(100000 + Math.random() * 900000).toString();
+  pendingVerification = { name, id, phone };
+  
+  // Send code to bot (user's Telegram)
+  let message = `🔐 <b>کد تایید ثبت نام</b>\n\n` +
+    `👤 <b>نام:</b> ${name}\n` +
+    `🆔 <b>آیدی:</b> ${id}\n` +
+    `📱 <b>شماره همراه:</b> ${phone}\n\n` +
+    `🔑 <b>کد تایید شما:</b> <code>${verificationCode}</code>\n\n` +
+    `⏳ این کد تا ۵ دقیقه اعتبار دارد`;
   
   try {
-    let response = await fetch(`https://api.telegram.org/bot${token}/getMe`);
-    let data = await response.json();
-    
-    if (data.ok) {
-      botConnected = true;
-      statusEl.className = 'bot-status connected';
-      statusEl.textContent = `✅ متصل به ربات: @${data.result.username}`;
-      alert(`✅ ربات با موفقیت متصل شد!\nنام ربات: @${data.result.username}`);
-      
-      try {
-        localStorage.setItem('botToken', token);
-      } catch(e) {}
-    } else {
-      botConnected = false;
-      statusEl.className = 'bot-status disconnected';
-      statusEl.textContent = '❌ اتصال ناموفق - توکن نامعتبر است';
-      alert('❌ توکن وارد شده معتبر نیست.\nلطفاً توکن را از @BotFather دریافت کنید.');
-    }
-  } catch (error) {
-    console.error('خطا:', error);
-    botConnected = false;
-    statusEl.className = 'bot-status disconnected';
-    statusEl.textContent = '❌ خطا در اتصال به سرور تلگرام';
-    
-    let msg = '❌ خطا در اتصال به سرور تلگرام.\n';
-    if (error.message.includes('Failed to fetch')) {
-      msg += 'لطفاً اتصال اینترنت خود را بررسی کنید.';
-    } else {
-      msg += error.message;
-    }
-    alert(msg);
-  }
-}
-
-async function sendBotMessage(message, chatId = null) {
-  if (!botToken || !botConnected) {
-    console.warn('ربات متصل نیست!');
-    return false;
-  }
-  
-  if (!chatId) {
-    console.warn('آیدی چت مشخص نشده است!');
-    return false;
-  }
-  
-  try {
-    let response = await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+    let response = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        chat_id: chatId,
+        chat_id: phone,
         text: message,
         parse_mode: 'HTML'
       })
     });
-    
     let data = await response.json();
     
     if (data.ok) {
-      console.log('✅ پیام با موفقیت ارسال شد');
-      return true;
+      document.getElementById('verificationSection').style.display = 'block';
+      document.getElementById('sendCodeBtn').style.display = 'none';
+      document.getElementById('verificationStatus').className = 'verification-status waiting';
+      document.getElementById('verificationStatus').textContent = '⏳ کد به ربات تلگرام شما ارسال شد. کد را وارد کنید.';
+      
+      // Auto-focus first input
+      document.querySelector('.code-input').focus();
+      
+      // Setup auto-tab
+      document.querySelectorAll('.code-input').forEach((input, index) => {
+        input.addEventListener('input', function() {
+          if (this.value.length === 1 && index < 5) {
+            document.querySelectorAll('.code-input')[index + 1].focus();
+          }
+        });
+        input.addEventListener('keydown', function(e) {
+          if (e.key === 'Backspace' && this.value.length === 0 && index > 0) {
+            document.querySelectorAll('.code-input')[index - 1].focus();
+          }
+        });
+      });
     } else {
-      console.error('❌ خطا در ارسال پیام:', data);
-      return false;
+      alert('❌ خطا در ارسال کد به ربات. لطفاً شماره همراه خود را بررسی کنید.');
     }
   } catch (error) {
-    console.error('❌ خطا در ارسال پیام به ربات:', error);
-    return false;
+    alert('❌ خطا در اتصال به ربات. لطفاً اتصال اینترنت خود را بررسی کنید.');
   }
 }
 
-function generateUserId() {
-  return Math.floor(100000000 + Math.random() * 900000000).toString();
+function verifyCode() {
+  let inputs = document.querySelectorAll('.code-input');
+  let code = '';
+  inputs.forEach(input => code += input.value);
+  
+  if (code.length !== 6) {
+    document.getElementById('verificationStatus').className = 'verification-status error';
+    document.getElementById('verificationStatus').textContent = '❌ لطفاً کد ۶ رقمی را کامل وارد کنید';
+    return;
+  }
+  
+  if (code === verificationCode && pendingVerification) {
+    document.getElementById('verificationStatus').className = 'verification-status success';
+    document.getElementById('verificationStatus').textContent = '✅ کد تایید صحیح است! ثبت نام تکمیل شد.';
+    
+    // Complete registration
+    let userData = pendingVerification;
+    let userId = Math.floor(100000000 + Math.random() * 900000000).toString();
+    userData.userId = userId;
+    registeredUsers.push(userData);
+    currentUser = { name: userData.name, id: userData.id, phone: userData.phone, userId: userId };
+    
+    // Send notification to admin
+    let adminMsg = `✅ <b>ثبت نام جدید</b>\n\n` +
+      `👤 <b>نام:</b> ${userData.name}\n` +
+      `🆔 <b>آیدی:</b> ${userData.id}\n` +
+      `📱 <b>شماره همراه:</b> ${userData.phone}\n` +
+      `🆔 <b>آیدی عددی:</b> <code>${userId}</code>`;
+    
+    fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        chat_id: ADMIN_CHAT_ID,
+        text: adminMsg,
+        parse_mode: 'HTML'
+      })
+    }).catch(e => console.log('Admin notification error:', e));
+    
+    pendingVerification = null;
+    verificationCode = '';
+    
+    setTimeout(() => {
+      hideAuth();
+      document.getElementById('profile-page').style.display = 'flex';
+      refreshProfile();
+      alert('✅ ثبت نام با موفقیت انجام شد!');
+    }, 1500);
+  } else {
+    document.getElementById('verificationStatus').className = 'verification-status error';
+    document.getElementById('verificationStatus').textContent = '❌ کد وارد شده اشتباه است. دوباره تلاش کنید.';
+    document.querySelectorAll('.code-input').forEach(input => input.value = '');
+    document.querySelector('.code-input').focus();
+  }
 }
 
-async function sendUserToBot(userData) {
-  if (!botToken || !botConnected) {
-    console.warn('ربات متصل نیست. اطلاعات ذخیره شد اما به ربات ارسال نشد.');
-    return false;
+function resendCode() {
+  if (pendingVerification) {
+    sendVerificationCode();
   }
-  
-  let userId = generateUserId();
-  let message = `✅ <b>ثبت نام جدید در پرو دیجی</b>\n\n` +
-    `👤 <b>نام:</b> ${userData.name}\n` +
-    `🆔 <b>آیدی:</b> ${userData.id}\n` +
-    `📱 <b>شماره همراه:</b> ${userData.phone}\n` +
-    `🆔 <b>آیدی عددی کاربر:</b> <code>${userId}</code>\n\n` +
-    `📅 <b>تاریخ ثبت نام:</b> ${new Date().toLocaleString('fa-IR')}`;
-  
-  let adminChatId = localStorage.getItem('adminChatId');
-  
-  if (!adminChatId) {
-    adminChatId = prompt('📨 لطفاً آیدی عددی چت ادمین را برای دریافت پیام‌ها وارد کنید:', '');
-    if (!adminChatId) {
-      alert('برای دریافت پیام‌ها در ربات، آیدی چت ادمین را وارد کنید.');
-      return false;
-    }
-    try {
-      localStorage.setItem('adminChatId', adminChatId);
-    } catch(e) {}
-  }
-  
-  return await sendBotMessage(message, adminChatId);
+}
+
+function showLoginForm() {
+  document.querySelector('#auth-page .page-inner > div:first-child + div').style.display = 'none';
+  document.getElementById('loginForm').style.display = 'block';
+  document.getElementById('verificationSection').style.display = 'none';
+  document.getElementById('sendCodeBtn').style.display = 'block';
+}
+
+function showRegisterForm() {
+  document.querySelector('#auth-page .page-inner > div:first-child + div').style.display = 'block';
+  document.getElementById('loginForm').style.display = 'none';
+  document.getElementById('verificationSection').style.display = 'none';
+  document.getElementById('sendCodeBtn').style.display = 'block';
 }
 
 // ===== NAV =====
@@ -1109,13 +984,25 @@ function updateCustomProxy() {
 function buyProxy() {
   if (!checkLogin()) return;
   if (!selectedPlan) return;
-  if (walletBalance < selectedPlan.price) {
-    alert('موجودی کیف پول شما کافی نیست! لطفاً شارژ کنید.');
-    return;
-  }
   addOrder(selectedPlan.label, selectedPlan.price);
-  walletBalance -= selectedPlan.price;
-  refreshProfile();
+  
+  // Send order notification to admin
+  let orderMsg = `🛒 <b>سفارش جدید</b>\n\n` +
+    `👤 <b>کاربر:</b> ${currentUser.name} (@${currentUser.id})\n` +
+    `📦 <b>محصول:</b> ${selectedPlan.label}\n` +
+    `💰 <b>مبلغ:</b> ${selectedPlan.price.toLocaleString()} تومان\n` +
+    `⏳ <b>وضعیت:</b> در انتظار تایید`;
+  
+  fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      chat_id: ADMIN_CHAT_ID,
+      text: orderMsg,
+      parse_mode: 'HTML'
+    })
+  }).catch(e => console.log('Order notification error:', e));
+  
   alert('سفارش ثبت شد! منتظر تایید ادمین باشید.');
   selectedPlan = null;
   document.getElementById('buy-btn').disabled = true;
@@ -1158,13 +1045,24 @@ function selectVpnPlan(el) {
 function buyVpn() {
   if (!checkLogin()) return;
   if (!selectedVpn) return;
-  if (walletBalance < selectedVpn.price) {
-    alert('موجودی کیف پول شما کافی نیست! لطفاً شارژ کنید.');
-    return;
-  }
   addOrder(selectedVpn.name, selectedVpn.price);
-  walletBalance -= selectedVpn.price;
-  refreshProfile();
+  
+  let orderMsg = `🛒 <b>سفارش جدید</b>\n\n` +
+    `👤 <b>کاربر:</b> ${currentUser.name} (@${currentUser.id})\n` +
+    `📦 <b>محصول:</b> ${selectedVpn.name}\n` +
+    `💰 <b>مبلغ:</b> ${selectedVpn.price.toLocaleString()} تومان\n` +
+    `⏳ <b>وضعیت:</b> در انتظار تایید`;
+  
+  fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      chat_id: ADMIN_CHAT_ID,
+      text: orderMsg,
+      parse_mode: 'HTML'
+    })
+  }).catch(e => console.log('Order notification error:', e));
+  
   alert('سفارش کانفیگ ثبت شد! منتظر تایید ادمین باشید.');
   selectedVpn = null;
   document.getElementById('vpn-buy-btn').disabled = true;
@@ -1191,13 +1089,24 @@ function selectSelfPlan(el) {
 function buySelf() {
   if (!checkLogin()) return;
   if (!selectedSelf) return;
-  if (walletBalance < selectedSelf.price) {
-    alert('موجودی کیف پول شما کافی نیست! لطفاً شارژ کنید.');
-    return;
-  }
   addOrder(selectedSelf.name, selectedSelf.price);
-  walletBalance -= selectedSelf.price;
-  refreshProfile();
+  
+  let orderMsg = `🛒 <b>سفارش جدید</b>\n\n` +
+    `👤 <b>کاربر:</b> ${currentUser.name} (@${currentUser.id})\n` +
+    `📦 <b>محصول:</b> ${selectedSelf.name}\n` +
+    `💰 <b>مبلغ:</b> ${selectedSelf.price.toLocaleString()} تومان\n` +
+    `⏳ <b>وضعیت:</b> در انتظار تایید`;
+  
+  fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      chat_id: ADMIN_CHAT_ID,
+      text: orderMsg,
+      parse_mode: 'HTML'
+    })
+  }).catch(e => console.log('Order notification error:', e));
+  
   alert('سفارش سلف ثبت شد! منتظر تایید ادمین باشید.');
   selectedSelf = null;
   document.getElementById('self-buy-btn').disabled = true;
@@ -1238,13 +1147,24 @@ function selectGamePlan(el) {
 function buyGame() {
   if (!checkLogin()) return;
   if (!selectedGame) return;
-  if (walletBalance < selectedGame.price) {
-    alert('موجودی کیف پول شما کافی نیست! لطفاً شارژ کنید.');
-    return;
-  }
   addOrder(selectedGame.name, selectedGame.price);
-  walletBalance -= selectedGame.price;
-  refreshProfile();
+  
+  let orderMsg = `🛒 <b>سفارش جدید</b>\n\n` +
+    `👤 <b>کاربر:</b> ${currentUser.name} (@${currentUser.id})\n` +
+    `📦 <b>محصول:</b> ${selectedGame.name}\n` +
+    `💰 <b>مبلغ:</b> ${selectedGame.price.toLocaleString()} تومان\n` +
+    `⏳ <b>وضعیت:</b> در انتظار تایید`;
+  
+  fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      chat_id: ADMIN_CHAT_ID,
+      text: orderMsg,
+      parse_mode: 'HTML'
+    })
+  }).catch(e => console.log('Order notification error:', e));
+  
   alert('سفارش بازی ثبت شد! منتظر تایید ادمین باشید.');
   selectedGame = null;
   document.getElementById('game-buy-btn').disabled = true;
@@ -1484,8 +1404,6 @@ function refreshProfile() {
     document.getElementById('p-name').textContent = currentUser.name;
     document.getElementById('p-id').textContent = '@' + currentUser.id;
     document.getElementById('p-phone').textContent = currentUser.phone;
-    document.getElementById('p-wallet').textContent = walletBalance.toLocaleString() + ' تومان';
-    document.getElementById('walletDisplay').textContent = walletBalance.toLocaleString() + ' تومان';
     let avatar = document.getElementById('avatar-letter');
     if (avatar) avatar.textContent = currentUser.name.charAt(0).toUpperCase();
     
@@ -1509,84 +1427,19 @@ function logout() {
 // ===== AUTH =====
 function showAuth() {
   document.getElementById('auth-page').style.display = 'flex';
-  switchAuthTab('register');
-  document.getElementById('forgot-pass-section').style.display = 'none';
-}
-function hideAuth() {
-  document.getElementById('auth-page').style.display = 'none';
-}
-function switchAuthTab(tab) {
-  document.getElementById('forgot-pass-section').style.display = 'none';
-  if (tab === 'register') {
-    document.getElementById('tab-register').classList.add('active');
-    document.getElementById('tab-login').classList.remove('active');
-    document.getElementById('form-register').style.display = 'block';
-    document.getElementById('form-login').style.display = 'none';
-  } else {
-    document.getElementById('tab-login').classList.add('active');
-    document.getElementById('tab-register').classList.remove('active');
-    document.getElementById('form-login').style.display = 'block';
-    document.getElementById('form-register').style.display = 'none';
-  }
-}
-function showForgotPass() {
-  let section = document.getElementById('forgot-pass-section');
-  if (section.style.display === 'block') {
-    section.style.display = 'none';
-  } else {
-    section.style.display = 'block';
-  }
-}
-function sendResetCode() {
-  let phone = document.getElementById('forgot-phone').value.trim();
-  if (!phone) { alert('لطفاً شماره همراه خود را وارد کنید'); return; }
-  let user = registeredUsers.find(u => u.phone === phone);
-  if (!user) {
-    alert('کاربری با این شماره همراه یافت نشد. لطفاً ثبت نام کنید.');
-    return;
-  }
-  alert('کد تایید به بات تلگرام شما ارسال شد.\n(این بخش به بات تلگرام متصل خواهد شد)');
+  document.getElementById('verificationSection').style.display = 'none';
+  document.getElementById('sendCodeBtn').style.display = 'block';
+  document.getElementById('loginForm').style.display = 'none';
+  document.querySelector('#auth-page .page-inner > div:first-child + div').style.display = 'block';
+  document.getElementById('verificationStatus').className = 'verification-status waiting';
+  document.getElementById('verificationStatus').textContent = '⏳ منتظر وارد کردن کد...';
+  document.querySelectorAll('.code-input').forEach(input => input.value = '');
+  pendingVerification = null;
+  verificationCode = '';
 }
 
-async function doRegister() {
-  let name = document.getElementById('reg-name').value.trim();
-  let id = document.getElementById('reg-id').value.trim();
-  let phone = document.getElementById('reg-phone').value.trim();
-  
-  if (!name || !id || !phone) { 
-    alert('لطفاً همه فیلدها را پر کنید'); 
-    return; 
-  }
-  
-  if (registeredUsers.some(u => u.id === id)) {
-    alert('این آیدی قبلاً ثبت شده است. لطفاً آیدی دیگری انتخاب کنید.');
-    return;
-  }
-  if (registeredUsers.some(u => u.phone === phone)) {
-    alert('این شماره همراه قبلاً ثبت شده است. لطفاً وارد شوید.');
-    return;
-  }
-  
-  let userId = generateUserId();
-  let userData = { name, id, phone, userId };
-  registeredUsers.push(userData);
-  currentUser = { name, id, phone, userId };
-  
-  // Send to bot
-  if (botConnected) {
-    let sent = await sendUserToBot(userData);
-    if (sent) {
-      alert('✅ ثبت نام با موفقیت انجام شد و اطلاعات به ربات ارسال شد!');
-    } else {
-      alert('✅ ثبت نام انجام شد اما ارسال به ربات با مشکل مواجه شد. لطفاً توکن ربات را بررسی کنید.');
-    }
-  } else {
-    alert('✅ ثبت نام با موفقیت انجام شد! برای ارسال اطلاعات به ربات، ابتدا ربات را متصل کنید.');
-  }
-  
-  hideAuth();
-  document.getElementById('profile-page').style.display = 'flex';
-  refreshProfile();
+function hideAuth() {
+  document.getElementById('auth-page').style.display = 'none';
 }
 
 function doLogin() {
@@ -1618,41 +1471,12 @@ function doLogin() {
   alert('اطلاعات وارد شده صحیح نیست. اگر ثبت نام نکردید، ابتدا ثبت نام کنید.');
 }
 
-// ===== MORE =====
-function switchTab(tab) {
-  if (tab === 'more') {
-    if (!checkLogin()) return;
-    document.getElementById('more-page').style.display = 'flex';
-    document.getElementById('walletDisplay').textContent = walletBalance.toLocaleString() + ' تومان';
-  }
-}
-function copyCard() {
-  let card = '6219861950812379';
-  navigator.clipboard?.writeText(card).then(() => alert('شماره کارت کپی شد!'));
-}
-
 // ===== CART =====
 function showCart() {
   if (!checkLogin()) return;
   document.getElementById('cart-page').style.display = 'flex';
   renderCart();
 }
-
-// ===== AUTO CONNECT BOT ON LOAD =====
-window.addEventListener('DOMContentLoaded', function() {
-  let savedToken = localStorage.getItem('botToken');
-  if (savedToken) {
-    document.getElementById('botToken').value = savedToken;
-    setTimeout(() => {
-      connectBot();
-    }, 1000);
-  }
-  
-  let savedChatId = localStorage.getItem('adminChatId');
-  if (savedChatId) {
-    console.log('✅ آیدی چت ادمین ذخیره شده:', savedChatId);
-  }
-});
 
 // ===== INIT =====
 document.querySelectorAll('.nav-item').forEach(item => {
@@ -1682,9 +1506,8 @@ document.querySelectorAll('.game-plan').forEach(el => {
 
 console.log('🔐 ادمین: آیدی: mohammad.451389 | شماره: 09393975714');
 console.log('📱 برای ورود به ادمین از همین اطلاعات استفاده کنید');
-console.log('🤖 برای اتصال ربات، توکن را در بخش "بیشتر" وارد کنید');
-console.log('🆔 هر کاربر هنگام ثبت نام یک آیدی عددی ۹ رقمی دریافت می‌کند که به ربات ارسال می‌شود');
-console.log('🤖 توکن ربات: 8919904826:AAGtpPoXM9SzJfjB5OhJMx7MoecqXi-ZuMQ');
+console.log('🤖 کد تایید به ربات کاربر ارسال می‌شود');
+console.log('📨 پیام‌های سفارش به @MRM00HAMMAD ارسال می‌شود');
 </script>
 </body>
 </html>
